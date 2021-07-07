@@ -8,7 +8,6 @@ pkg install curl -y
 pkg install proot -y
 pkg install tar -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Void/void.sh | bash
-rm -rf void-installer-iso.sh
 chmod +x *
 ./start-void.sh
 apt update -y
@@ -25,3 +24,4 @@ apt install pip -y
 apt install python-pip -y
 apt install python3-pip -y
 echo "Void has been installed"
+rm -rf void-installer-iso.sh
