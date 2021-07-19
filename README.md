@@ -5,5 +5,5 @@ OS system = Termux
 installation:
 ```
 $ chmod +x *
-$ ./void-installer-iso.sh
+$ bash void-installer-iso.sh
 ```
